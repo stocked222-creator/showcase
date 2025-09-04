@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly-out Menu Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Showcase</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#services" class="nav-link dropdown-toggle">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="#web-design" class="dropdown-item">Web Design</a>
+                        <a href="#development" class="dropdown-item">Development</a>
+                        <a href="#consulting" class="dropdown-item">Consulting</a>
+                        <a href="#support" class="dropdown-item">Support</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#portfolio" class="nav-link dropdown-toggle">Portfolio</a>
+                    <div class="dropdown-menu">
+                        <a href="#recent-work" class="dropdown-item">Recent Work</a>
+                        <a href="#case-studies" class="dropdown-item">Case Studies</a>
+                        <a href="#testimonials" class="dropdown-item">Testimonials</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Fly-out Menu Showcase</h1>
+                <p>Hover over "Services" or "Portfolio" in the navigation to see the fly-out menu in action.</p>
+                <p>On mobile devices, click the hamburger menu to see the mobile navigation.</p>
+            </div>
+        </section>
+
+        <section id="home" class="section">
+            <div class="container">
+                <h2>Home Section</h2>
+                <p>This showcase demonstrates a modern fly-out menu with smooth animations and responsive design.</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Section</h2>
+                <p>The fly-out menu features hover effects, smooth transitions, and mobile-friendly collapsible navigation.</p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Services Section</h2>
+                <p>Our services include web design, development, consulting, and ongoing support.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portfolio Section</h2>
+                <p>Check out our recent work, case studies, and client testimonials.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Section</h2>
+                <p>Get in touch with us for your next project.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
